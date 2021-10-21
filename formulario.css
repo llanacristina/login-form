@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+   font-family: 'Courier New', Courier, monospace;
+   
+}
+body{
+    background: linear-gradient(45deg,#3E065F ,#700B97);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+.container{
+    background: white;
+    max-width: 350px;
+    min-height: 20rem;
+    padding: 2px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.titulo{
+    margin-top: 5px;
+
+}
+.form{
+    margin-top: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background: linear-gradient(45deg,#3E065F ,#700B97);
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 100%;
+    min-width: -20rem ;
+}
+
+   
