@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+   /* margin: 0px;
+    padding: 0px;*/
     border: 0px;
     box-sizing: border-box;
    font-family: 'Courier New', Courier, monospace;
@@ -12,7 +12,7 @@ body{
     display: flex;
     margin-top: 15%;
     justify-content: center;
-    text-align: center;
+    /*text-align: center;*/
    
     
 }
@@ -27,21 +27,28 @@ body{
 }
 .titulo{
     margin-top: 5px;
+    text-align: center;
 
 }
 .form{
-    margin-top: 10%;
+    margin: 3%;
     position: relative;
     display: flex;
     flex-direction: column;
+
 }
-button{
+form button {
     background: linear-gradient(45deg,#3E065F ,#700B97);
     color: white;
     border-radius: 8px;
     padding: 4px;
     font-size: 100%;
-    min-width: -20rem ;
+    /*min-width: -20rem ;*/
+    margin: 5%;
 }
-
+.conect{
+    margin: 5%;
+}
+.midia1 ,.midia2, .midia3{
+}
    
