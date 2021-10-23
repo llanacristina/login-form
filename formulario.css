@@ -3,39 +3,36 @@
     padding: 0px;*/
     border: 0px;
     box-sizing: border-box;
-   font-family: 'Courier New', Courier, monospace;
-   
 }
 body{
-    background: linear-gradient(45deg,#3E065F ,#700B97);
+    background: linear-gradient(45deg,#523364 ,#700B97);
     background-repeat: no-repeat;
     display: flex;
     margin-top: 15%;
     justify-content: center;
     /*text-align: center;*/
-   
-    
+   font-family: 'Courier New', Courier, monospace;
 }
 .container{
+    margin-top: -6%;
     background: white;
-    max-width: 350px;
+    width: 350px;
     min-height: 20rem;
     padding: 2px;
-    margin-bottom: 5px;
+   /*margin-bottom: 5px;*/
     border-radius: 8px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 15px rgba(206, 202, 202, 0.002);
 }
 .titulo{
     margin-top: 5px;
     text-align: center;
-
 }
 .form{
-    margin: 3%;
-    position: relative;
+    margin: 4px;%;
+    /*position: relative;*/
     display: flex;
     flex-direction: column;
-
+    padding: 5%;
 }
 form button {
     background: linear-gradient(45deg,#3E065F ,#700B97);
@@ -47,8 +44,26 @@ form button {
     margin: 5%;
 }
 .conect{
-    margin: 5%;
+    margin-left: 12%;
+    margin-right: 7%;
+    font-size: 90%;
+    padding: 4px;
 }
 .midia1 ,.midia2, .midia3{
+    /*background:linear-gradient(45deg,#3E065F ,#700B97);*/
+    color: white;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 2%;
 }
-   
+.check{
+    padding: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+}
+img{
+    width: 40px;
+    padding: 8px;
+    margin-left: 13%;
+    margin-top: 7px;
+}
