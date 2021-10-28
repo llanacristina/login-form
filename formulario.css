@@ -19,7 +19,7 @@ body{
     width: 350px;
     min-height: 20rem;
     padding: 2px;
-   /*margin-bottom: 5px;*/
+    /*margin-bottom: -5px;*/
     border-radius: 8px;
     box-shadow: 5px 5px 15px rgba(206, 202, 202, 0.002);
 }
