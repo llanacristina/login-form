@@ -6,53 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="shortchut icon" type="download/png" href="icons4.png">
-    <link rel=" stylesheet " href="formulario.css">
+    <link rel=" stylesheet " href="form.css">
 </head>
 
 <body>
-    <main class="container">
-        <div class="titulo">
-            <img src="login.png">
-            <h1>Welcome!</h1>
-            <h4>Create one account</h4>
-        </div>
-        <form action="#" class="form">
-            <div>
-                <fieldset>
-                    <input name="nome" type="text" placeholder="Full name" />
-                </fieldset>
+    <div class="container"> <!--Parte do container inteiro,criar formulario -->
+        <div class="message signup" id="loginForm">
+            <div class="btn-wrapper">
+                <button class="button" id="signup">Sign Up</button>
+                <button class="button" id="login">Login</button>
+                <p>or use your</p>
+                <div class="images"> <!--Logos de redes sociais-->
+                    <img src="img/google.png">
+                    <img src="img/facebook.png">
+                    <img src="img/linkedin.png">
+                </div>
             </div>
-            <div>
-                <fieldset>
-                    <input name="email" type="email" placeholder="E-mail or phone" />
-                </fieldset>
-            </div>
-            <div>
-                <fieldset>
-                    <input name="senha" type="text" placeholder="Password"/>
-                </fieldset>
-            </div>
-            <button type="submit">Sign in</button>
-        </form>
-        <div class="conect">
-            <span>Or connect with social media</span>
         </div>
-        <div>
-            <!--<button class="midia1" type="submit">Google</button>-->
-            <a href="#">
-                <img src="google.png"></a>
-            <!--<button class="midia2" type="submit">Facebook</button>-->
-            <a href="#">
-                <img src="facebook.png"></a>
-            <!--<button class="midia3" type="submit">Twitter</button>-->
-            <a href="#">
-                <img src="twitter.png"></a>
+        <div class="form form--signup"> <!--Primeira parte formulario-->
+            <div class="form--heading">Welcome! Create an Account</div>
+            <form autocomplete="off">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button class="button">Sign Up</button>
+            </form>
         </div>
-        <div class="check">
-            <input type="checkbox" name="termos" value="termos" />
-            <label>I have read and agree to the <a href="#">Terms of Service</a></label>
+        <div class="form form--login"> <!--Segunda parte formulario debaixo dos botoes (Sign up e Login)-->
+            <div class="form--heading">Hello, Friend<br>Welcome back! </div>
+            <form autocomplete="off">
+                <input type="text" placeholder="Name">
+                <input type="password" placeholder="Password">
+                <button class="button">Login</button>
+            </form>
         </div>
+    </div>
 </body>
-
+<script src="./index.js"></script>
 </html>
